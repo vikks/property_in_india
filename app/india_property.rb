@@ -10,6 +10,7 @@ module IndiaProperty
     enable :static
 
     get "/" do
+      @title = "Welcome"
       erb :index
     end
 
