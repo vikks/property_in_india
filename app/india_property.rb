@@ -13,6 +13,14 @@ module IndiaProperty
       erb :index
     end
 
+    get "/ruby" do
+      "ruby"
+    end
+
+    error 400..510 do
+      erb :throw_error
+    end
+
 
 
 
