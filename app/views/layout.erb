@@ -1,15 +1,21 @@
-
 <!DOCTYPE html>
 <html>
 
 <head>
   <meta charset='utf-8'>
   <title><%= @title ? "#{@title} - " : nil %> India Property Display</title>
-  <script src="jquery.js"></script>
-  <script src="jquery.cookie.js"></script>
+  <link rel="stylesheet" href="/stylesheets/main.css" type="text/css" media="screen, projection" charset="utf-8">
+  <script src="/javascripts/jquery.js" type="text/javascript" charset="utf-8"></script>
+  <script src="/javascripts/jquery.cookie.js" type="text/javascript" charset="utf-8"></script>
 </head>
 
 <div id="main">
+    <ul class="nav">
+      <li id="nav-home"><a href="/">Home</a></li>
+      <li id="nav-menu"><a href="/menu1">Menu1</a></li>
+      <li id="nav-menu"><a href="/menu2">Menu2</a></li>
+      <li id="nav-menu"><a href="/menu3">Menu3</a></li>
+    </ul>
   <%= yield %>
 </div>
 
