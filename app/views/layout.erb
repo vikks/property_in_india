@@ -12,18 +12,33 @@
   <%#<link rel="stylesheet" type="text/css" href="/css/sliderman.css" />%>
 </head>
 
+<div id="top_bar"></div>
 <div id="main">
-   <%#<div id="nav_bar">%>
     <ul class="nav">
       <li><a href="/">Home</a></li>
       <li><a href="/about">About us</a></li>
       <li><a href="/services">Services</a></li>
       <li><a href="/commissions">Commission Structure</a></li>
       <li><a href="/hot_properties">Hot Properties</a></li>
+      <li><a href="/builders">Builders</a></li>
       <li><a href="/faqs">Faq</a></li>
     </ul>
-    <%#</div>%>
 
+<div id="slider_container_2">
+  <div id="SliderName_2" class="SliderName_2">
+    <img src="images/01.jpg" width="700" height="450" alt="Demo2 first" title="Demo2 first" />
+    <map name="img1map">
+      <area href="#img1map-area1" shape="rect" coords="100,100,200,200" />
+      <area href="#img1map-area2" shape="rect" coords="300,100,400,200" />
+    </map>
+    <div class="SliderName_2Description">Description: <strong>Goes Here</strong></div>
+    <img src="images/02.jpg" width="700" height="450" alt="Demo2 second" title="Demo2 second" />
+    <div class="SliderName_2Description">Featured model: <strong>Description </strong></div>
+    <img src="images/03.jpg" width="700" height="450" alt="Demo2 second" title="Demo2 second" />
+  </div>
+  <div id="SliderNameNavigation_2"></div>
+</div>
+<div class="c"></div>
   <%= yield %>
 </div>
 
