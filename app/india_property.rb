@@ -24,6 +24,9 @@ require 'sinatra'
   get "/faqs" do
     erb :faqs
   end
+  get "/builders" do
+    erb :faqs
+  end
   error 400..510 do
     erb :throw_error
   end

@@ -5,8 +5,12 @@ body {
   font-family: Verdana, Helvetica, Arial;
   font-size: 14px;
   /*background:#808259 url(../images/905_original.jpg) 0 0 repeat-x*/
-  background-color: #EEE;
+  background-color: gray;
   /*margin: 0;*/
+  /*background: -webkit-gradient(linear, left top, right bottom, from(#fff), to(#eee685));*/
+  /*background: -moz-linear-gradient(#fff, #ffe);*/
+  /*background: linear-gradient(#fff, #ffe);*/
+  /*filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fff', endColorstr='#ffe');*/
 }
 
 a {
@@ -49,8 +53,9 @@ h4 {
 /*}*/
 
 #top_bar {
-  height: 10em;
+  max-height: 10em;
   background-color: red;
+  overflow: hidden;
   width: 960px;
   margin: 0 auto;
 }
