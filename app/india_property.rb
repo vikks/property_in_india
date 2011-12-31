@@ -5,18 +5,25 @@ require 'sinatra'
     erb :index
   end
 
-  get "/menu1" do
-    erb :menu_one
+  get "/about" do
+    erb :about
   end
 
-  get "/menu2" do
-    erb :menu_two
+  get "/services" do
+    erb :services
   end
 
-  get "/menu3" do
-    erb :menu_three
+  get "/commissions" do
+    erb :commission
   end
 
+  get "/hot_properties" do
+    erb :hot_properties
+  end
+
+  get "/faqs" do
+    erb :faqs
+  end
   error 400..510 do
     erb :throw_error
   end
