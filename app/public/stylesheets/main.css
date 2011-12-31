@@ -80,30 +80,37 @@ h4 {
 .nav li:first-child a {
   margin-right: 30px;
   margin-left: -40px;
-  background-color: #333;
+  /*background-color: #333;*/
+  height: 40px;
+  width: 35px;
+  position: absolute;
+  top: 11.5em;
+  background: -webkit-gradient(linear, left top, right bottom, from(#fff), to(#666));
+  background: -moz-linear-gradient(#fff, #666);
+  background: linear-gradient(#fff, #666);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fff', endColorstr='#666');
 }
 
 .nav li:first-child a:link {
   margin-right: 30px;
-  margin-left: -40px;
-  padding-top: 15px;
-  padding-bottom: 19px;
+  margin-left: -35px;
+  /*padding-top: 2px;*/
+  /*padding-bottom: 2px;*/
+  padding: 7px;
 }
 .nav li:first-child a:hover {
   background-color: red;
-  padding-top: 16px;
-  padding-bottom: 18px;
-  background: -webkit-gradient(linear, left top, right bottom, from(#222), to(#666));
-  background: -moz-linear-gradient(#222, #666);
-  background: linear-gradient(#222, #666);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#222', endColorstr='#666');
+  padding-top: 2px;
+  padding-bottom: 5px;
+  /*height: 39px;*/
+  /*width: 35px;*/
 }
 
 .nav a:link, .nav a:visited {
   color: #FFF;
   background:#222;
   padding: 7px;
-  margin-left: 7px;
+  margin-left: 40px;
 }
 
 .nav a:hover, .nav a:focus {
@@ -111,6 +118,10 @@ h4 {
   background-color: red;
   padding-top: 13px;
   padding-bottom: 17px;
+  background: -webkit-gradient(linear, left top, right bottom, from(#222), to(#666));
+  background: -moz-linear-gradient(#222, #666);
+  background: linear-gradient(#222, #666);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#222', endColorstr='#666');
 }
 
 #bottom-content {
@@ -120,6 +131,13 @@ h4 {
   height: 30em;
 
   }
+  #text_summary {
+  background-color: #7BA3CD;
+  margin-top: -5em;
+  padding-left: 10px;
+  padding-right: 10px;
+
+}
   #service_picture {
     float: left;
     margin-left: 10px;
@@ -139,6 +157,9 @@ h4 {
    padding-left: 1px;
 
    }
+   #text_summary {
+
+ }
 
    /*slider*/
    #slider_container_2 {
