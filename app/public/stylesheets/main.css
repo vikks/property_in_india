@@ -117,12 +117,12 @@ h4 {
   /*background-color: #333;*/
   height: 40px;
   width: 35px;
-  position: absolute;
+  position: fixed;
   top: 11.5em;
   background: -webkit-gradient(linear, left top, right bottom, from(#fff), to(#666));
   background: -moz-linear-gradient(#fff, #666);
   background: linear-gradient(#fff, #666);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fff', endColorstr='#666');
+  /*filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fff', endColorstr='#666');*/
 }
 
 .nav li:first-child a:link {
@@ -155,7 +155,7 @@ h4 {
   background: -webkit-gradient(linear, left top, right bottom, from(#222), to(#666));
   background: -moz-linear-gradient(#222, #666);
   background: linear-gradient(#222, #666);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#222', endColorstr='#666');
+  /*filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#222', endColorstr='#666');*/
 }
 
 #bottom-content {
