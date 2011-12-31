@@ -57,16 +57,20 @@ h4 {
 
 #footer {
   height:50px;
-  margin: 0 0 0 0 ;
-  margin: auto;
-  margin-top:37em;
+  margin: 10px 0 0 0 ;
+  /*margin: auto;*/
+  /*margin-top:37em;*/
   padding: .5em;
-  width: 950px;
+  /*width: 950px;*/
   text-align: center;
   /*background-color:#507AAA;*/
   color:#f8f8f8;
   position:relative;
   clear: both;
+}
+
+#justify-right {
+ padding-top: 10px;
 }
 
 #top_bar {
