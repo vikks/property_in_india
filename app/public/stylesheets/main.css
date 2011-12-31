@@ -237,3 +237,12 @@ h4 {
 #SliderNameNavigation_2 {
   display: none;
 }
+
+ul.listclass {
+ margin-left: 30em;
+}
+
+div.somespantext {
+  margin-left: 25em;
+  margin-right: 1em;
+}
