@@ -1,15 +1,15 @@
 html {
   background: #111 ;
   zoom: 1.1;
-  filter:alpha(opacity=10);
-  -moz-opacity:0.8;
-  -khtml-opacity: 0.8;
+  /*filter:alpha(opacity=10);*/
+  /*-moz-opacity:0.8;*/
+  /*-khtml-opacity: 0.8;*/
+  /*opacity: 0.8;*/
   /*filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);*/
   /*[> For IE 8<]*/
   /*-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";*/
-
-  opacity: 0.8;
 }
+
 body {
   /*background-color: #FFF;*/
   font-family: Verdana, Helvetica, Arial;
