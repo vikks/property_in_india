@@ -1,7 +1,13 @@
 html {
   background: #111 ;
   zoom: 1.1;
-  filter: alpha(opacity=1);
+  filter:alpha(opacity=50);
+  -moz-opacity:0.5;
+-khtml-opacity: 0.5;
+filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);
+		/* For IE 8*/
+		-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";
+	}
   opacity: 0.8;
 }
 body {
